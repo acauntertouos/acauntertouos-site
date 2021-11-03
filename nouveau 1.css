@@ -1,0 +1,44 @@
+*
+{
+    font-family: Avenir, sans-serif;
+}
+body
+{
+  margin : 0px;
+  padding : 0px;
+  background-image : url("https://www.zininfrankrijk.nl/wp-content/uploads/2019/06/Honfleur-Normandi%C3%AB-sh_47560564.jpg");
+  background-attachment : fixed;
+  background-size: cover;
+  background-position-y: top;
+}
+
+  nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-top : 0px;
+    padding-top : 5px;
+    padding-bottom : 5px;
+  }
+nav li
+{
+  margin-right: 15 px;
+  width: 20%;
+  text-align: center;
+}
+nav a
+{
+  font-size: 1.3em;
+  color: black;
+  padding-bottum: 3px;
+  text-decoration: none;
+}
+nav a:hover
+{
+ color: #760001;
+  border-bottom: 3px solid #760001;
+}
+  header
+{
+    background-color: red;
+    opacity: 50%;
+}
