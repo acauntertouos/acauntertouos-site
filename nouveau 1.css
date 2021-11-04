@@ -21,9 +21,10 @@ body
   }
 nav li
 {
-  margin-right: 15 px;
-  width: 20%;
+  margin: auto;  
+  width: 200%;
   text-align: center;
+
 }
 nav a
 {
@@ -41,7 +42,6 @@ nav a:hover
 {
     background-color: red;
     opacity: 50%;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/220px-Square_-_black_simple.svg.png"/>
 }
   footer
 {
