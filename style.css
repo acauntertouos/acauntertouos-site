@@ -26,8 +26,15 @@ body
 }
 .element
 {
-    margin : 10px;
+    margin: 10px;
     Background-color : rgba(255, 0,0,0.5);
+    padding:1%;
+}
+#reseaux
+{
+    display: flex;
+    flex-wrap: nowrap;
+    Background-color : rgba(205, 0,50,0.5);
 }
 nav
 {
@@ -44,17 +51,16 @@ nav
     flex-wrap: nowrap;
     margin: 0% 10% 0% 0%;
     width: 50%;
-    Background-color : rgba(255, 255,0,0.5);
 }
 .button
 {
     display: flex;
     justify-content: center;
+    width: 100;
 }
 .logo
 {
     display: flex;
-    Background-color : rgba(255, 255,0,0.5);
 }
 #logo
 {
@@ -64,22 +70,27 @@ nav
 #flags
 {
     display: flex;
-    align-items: flex-start;
+    justify-content: space-evenly;
     flex-direction: column;
     flex-wrap: wrap;
-    Background-color : rgba(0, 255,0,1);
-    width: 10%;
-    height: 10%;
+    widht:100%;
+    height:100%;
 }
-.flag
+#flags a
 {
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    Background-color : rgba(0, 255,0,1);
-    width: 10%;
-    height: 1%;
+    widht:100%;
+    height:20%;
+}
+#flags img
+{
+    display: flex;
+    widht:100%;
+    height:100%;
 }
 nav a
 {
