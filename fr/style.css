@@ -99,6 +99,46 @@ body
     padding:1%;
     margin:5px
 }
+-#expstaff
+{
+  display:flex;
+  flex-direction: row-reverse;
+  
+}
+.explicatif2
+{
+  	margin: 1px;
+    width:66%;
+    Background-color : rgba(255, 0,0,0.5);
+    padding:1%;
+    height:100%;
+}
+#staffs
+{
+  font-size: 1.1em;
+  display: flex;
+  flex-direction: column;
+  width:33%;
+}
+.staff
+{
+  
+    display: flex;
+    justify-content: center;
+    Background-color : rgba(255, 0,0,0.5);
+    width:50%;
+    margin:5px;
+}
+.staff2
+{
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    Background-color : rgba(255, 0,0,0.5);
+    width:50%;
+    margin:0% 1%;
+
+}
 footer
 {
     Background-color : rgba(255, 0,0,0.5);
