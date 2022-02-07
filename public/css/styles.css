@@ -10,7 +10,18 @@
     width: 100%;
     background-color: #323232;
     position: fixed;
+    align-items: center;
     z-index: 1000;
+}
+.links {
+    list-style: none;
+}
+.links li {
+    display: inline;
+}
+.links a {
+    text-decoration: none;
+    color: #fff;
 }
 /* ^^ Header ^^ */
 /* Landing */
