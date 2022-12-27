@@ -1,0 +1,36 @@
+.landing {
+  background-image: url("/yra8cs80.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.landing div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadein 1s;
+  -moz-animation: fadein 1s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.info {
+  min-height: 100vh;
+  background-color: #F3EFE0;
+}

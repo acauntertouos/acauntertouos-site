@@ -1,0 +1,15 @@
+.footer {
+    position: relative;
+    background-color: #F3EFE0;
+    height: 200px;
+}
+.bar {
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    height: 2px;
+    width: 300px;
+}
