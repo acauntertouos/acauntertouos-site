@@ -6,3 +6,6 @@ body {
   margin: 0;
   font-family: 'Lexend Deca', sans-serif;
 }
+a {
+  text-decoration: none;
+}
